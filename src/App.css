@@ -39,6 +39,7 @@ body {
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
+  padding: 40px;
 }
 
 main {
@@ -72,7 +73,6 @@ footer {
 
 @media (min-width: 768px) {
   body {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +86,7 @@ footer {
     background-size: 100%;
     background-position: -480px 65%;
     display: flex;
+    align-items: center;
     gap: 20px;
   }
   h1 {
@@ -102,11 +103,12 @@ footer {
     background-position: -50px 50%;
     width: 50%;
     position: relative;
+    height: 295px;
   }
   .image-section img {
     position: absolute;
     left: -75px;
-    top: 110px;
+    bottom: 40px;
     width: 150px;
   }
   footer {
