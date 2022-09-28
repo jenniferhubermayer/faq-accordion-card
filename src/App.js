@@ -5,7 +5,6 @@ import Accordion from "./Components/Accordion";
 import HeaderImage from "./Components/HeaderImage";
 
 // IMAGES
-import imageDesktop from "./Images/illustration-woman-online-desktop.svg";
 import imageBox from "./Images/illustration-box-desktop.svg";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <HeaderImage />
       <main>
         <section className="image-section">
-          {/* <img src={imageDesktop} alt="" /> */}
           <img src={imageBox} alt="" />
         </section>
         <section className="content-section">
