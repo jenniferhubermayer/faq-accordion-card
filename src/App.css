@@ -45,8 +45,6 @@ main {
   background-color: white;
   padding: 140px 20px 60px 20px;
   margin: -110px 20px auto 20px;
-  z-index: -1;
-  position: relative;
   border-radius: 20px;
 }
 
