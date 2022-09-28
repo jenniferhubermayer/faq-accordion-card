@@ -15,7 +15,6 @@
 
 .accordion:hover {
   color: hsl(14deg, 88%, 65%);
-  cursor: pointer;
 }
 
 .accordion:after {

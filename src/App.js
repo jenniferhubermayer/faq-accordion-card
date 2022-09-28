@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Components/Accordion.css";
 
 // COMPONENTS
 import Accordion from "./Components/Accordion";
