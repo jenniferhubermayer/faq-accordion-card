@@ -27,6 +27,23 @@ function App() {
           text="Chat and email support is available 24/7. Phone lines are open during normal business hours."
         />
       </main>
+      <footer>
+        <div className="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by
+          <a href="https://github.com/jenniferhubermayer">
+            Jennifer Huber-Mayer
+          </a>
+          .
+        </div>
+      </footer>
     </div>
   );
 }

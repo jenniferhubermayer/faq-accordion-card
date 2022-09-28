@@ -11,17 +11,26 @@
   --lightGrayishBlue: hsl(240, 5%, 91%);
 }
 
+/* GENERAL STYLES */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html {
+.App {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: var(--darkGrayishBlue);
+}
+
+h1 {
+  text-align: center;
+  color: var(--veryDarkDesaturatedBlue);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
 
 body {
@@ -34,13 +43,18 @@ body {
 
 main {
   background-color: white;
-  padding: 40% 20px 40px 20px;
+  padding: 40% 20px 60px 20px;
   margin: -110px 20px auto 20px;
   z-index: -1;
   position: relative;
   border-radius: 20px;
 }
 
+footer {
+  margin: 30px 0;
+}
+
+/* FRONTEND MENTOR FOOTER */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -48,4 +62,5 @@ main {
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+  margin-left: 5px;
 }

@@ -12,9 +12,11 @@
   transition: 0.4s;
   color: hsl(237deg, 12%, 33%);
 }
+
 .accordion:hover {
   color: hsl(14deg, 88%, 65%);
 }
+
 .accordion:after {
   content: "⌃";
   transform: rotate(180deg);
@@ -22,6 +24,7 @@
   font-weight: bold;
   margin-left: 5px;
 }
+
 .panel {
   background-color: white;
   max-height: 0;
@@ -29,8 +32,13 @@
   transition: max-height 0.3s ease-out;
   line-height: 1.5;
 }
+
 .panel p {
   margin-bottom: 20px;
+}
+
+.panel {
+  border-bottom: 1px hsl(240, 5%, 91%) solid;
 }
 
 .active {
