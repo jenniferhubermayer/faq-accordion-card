@@ -43,11 +43,15 @@ body {
 
 main {
   background-color: white;
-  padding: 40% 20px 60px 20px;
+  padding: 140px 20px 60px 20px;
   margin: -110px 20px auto 20px;
   z-index: -1;
   position: relative;
   border-radius: 20px;
+}
+
+.image-section {
+  display: none;
 }
 
 footer {
@@ -60,7 +64,55 @@ footer {
   text-align: center;
   color: white;
 }
+
 .attribution a {
   color: hsl(228deg, 45%, 44%);
   margin-left: 5px;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    padding: 60px 60px 60px 0;
+    margin: auto;
+    max-width: 850px;
+    background-image: url(./Images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -480px 65%;
+    display: flex;
+    gap: 20px;
+  }
+  h1 {
+    text-align: left;
+  }
+  .content-section {
+    width: 50%;
+    /* margin-left: 50%; */
+  }
+  .image-section {
+    display: block;
+    background-image: url(./Images/illustration-woman-online-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -50px 50%;
+    width: 50%;
+    position: relative;
+  }
+  .image-section img {
+    position: absolute;
+    left: -75px;
+    top: 110px;
+    width: 150px;
+  }
+  footer {
+    width: 100%;
+  }
 }

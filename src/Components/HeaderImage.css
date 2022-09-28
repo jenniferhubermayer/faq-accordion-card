@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.header-image-desktop {
+  display: none;
+}
+
 .header-image-mobile {
   min-height: 260px;
   background-image: url(../Images/bg-pattern-mobile.svg);
@@ -22,4 +26,15 @@
   margin-right: auto;
   margin-top: -40px;
   width: 260px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+  .header-image-mobile {
+    display: none;
+  }
+
+  .header-wrapper {
+    display: none;
+  }
 }

@@ -9,7 +9,6 @@ const HeaderImage = () => {
       <div className="header-image-mobile">
         <img src={imageMobile} alt="" />
       </div>
-      <div className="header-shaddow-mobile"></div>
     </div>
   );
 };
