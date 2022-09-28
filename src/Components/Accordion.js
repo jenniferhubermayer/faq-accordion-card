@@ -3,7 +3,6 @@ import { useState } from "react";
 
 const Accordion = (acc) => {
   const [status, setStatus] = useState("inactive");
-
   const toggleStatus = () => {
     if (status === "inactive") {
       setStatus("active");
