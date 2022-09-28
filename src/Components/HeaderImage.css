@@ -1,0 +1,25 @@
+.header-wrapper {
+  width: 80%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.header-image-mobile {
+  min-height: 260px;
+  background-image: url(../Images/bg-pattern-mobile.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 260px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-image-mobile img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  width: 260px;
+}

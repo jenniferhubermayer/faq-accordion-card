@@ -1,0 +1,47 @@
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  cursor: pointer;
+  padding: 18px 0 18px 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  color: hsl(237deg, 12%, 33%);
+}
+.accordion:hover {
+  color: hsl(14deg, 88%, 65%);
+}
+.accordion:after {
+  content: "⌃";
+  transform: rotate(180deg);
+  color: hsl(14deg, 88%, 65%);
+  font-weight: bold;
+  margin-left: 5px;
+}
+.panel {
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  line-height: 1.5;
+}
+.panel p {
+  margin-bottom: 20px;
+}
+
+.active {
+  color: hsl(238deg, 29%, 16%);
+  font-weight: 700;
+}
+.active:after {
+  transform: none;
+}
+main section hr {
+  width: 100%;
+  border: solid 0.25px hsl(240deg, 5%, 91%);
+  border-bottom: none;
+}
